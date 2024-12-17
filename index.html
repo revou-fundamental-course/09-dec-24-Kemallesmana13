@@ -4,9 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css" />
-    <title>Document</title>
+    <title>SKUY TERUY TRAVEL AGENT</title>
 </head>
 <body>
-    
+    <header>
+        <!-- NAVIGATION BAR -->
+        <div class="container">
+             <img src="assets/travel.png" style="width: 120px; height: 100px;">
+        <div class="title"><h1>SKUY TERUY</h1></div>
+            <nav>
+                <div class="container-nav">
+                <a href="">Home</a>
+                <a onclick= scrollToPackage()>Our Package</a>
+                <a onclick= scrollToCallUs()>Call Us</a>
+                </div>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+      <!-- MAIN CONTENT -->
+    <main class="content">
+        <h1>Your Travel agent's</h1><br><br>
+        <p>Your Happines Is Our Happinnes</p><br><br>
+    </main>
+    <section>
+        <aside>
+            <!-- IMAGE CONTENT -->
+            <div class="slides">
+                <img src="/assets/travel1.jpg" alt="gambar 1" style="width: 50%; max-width: 100%;">
+                <img src="/assets/travel2.jpg" alt="gambar 2" style="width: 50%; max-width: 100%;">
+                <img src="/assets/travel3.jpg" alt="gambar 3" style="width: 50%; max-width: 100%;">
+            <!-- FORM CONTENT -->
+            <div class="form-container">
+                <form>
+                <h2>Contact Us</h2><br>
+                    <p>Apakah Anda siap merencanakan liburan impian atau membutuhkan informasi lebih lanjut mengenai paket wisata kami? 
+                        Kami di Skuy Teruy Travel selalu siap membantu Anda memilih destinasi terbaik, paket perjalanan yang sesuai, dan memberikan pengalaman yang tak terlupakan.
+                        Isi formulir di bawah ini untuk menghubungi tim ahli kami, dan kami akan segera menghubungi Anda dengan informasi lebih lanjut. 
+                        Tidak sabar untuk memulai petualangan Anda? Hubungi kami sekarang juga!</p><br><br>
+                    
+                <h2>Your Name:</h2><br>
+                    <input type="text" id="name" name="name" placeholder="First and last name"><br><br>
+                <h2>Email Address:</h2><br>
+                    <input type="email" id="email" name="email" placeholder="example@email.com"><br><br>
+                <h2>What are you interested in?</h2><br>
+
+                <select name="negara" id="negara">
+                    <option value="">Select Option</option>
+                    <option value="Eropa">Eropa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Afrika">Afrika</option>
+                    <option value="Amerika">Amerika</option>
+                </select><br><br>
+
+                <button class="btn" onclick= showAlert()>SEND</button>
+                </form>
+            </div>
+            </div>
+            <!-- IMAGE CAPTION -->
+            <div class="text">
+                <p>"Liburan jadi menyenangkan bersama Skuy Teruy Travel."</p>
+           </div><br>
+        </aside>
+            <!-- FEATURE CONTENT -->
+        <div class="feature">
+            <div class="adds">
+                <img src="/assets/adds2.jpeg" alt="adds2">
+            </div>
+            <div class="feature-text">
+                <h4>1. Layanan Pemesanan Online 24/7</h4>
+                 <li>Pemesanan tiket pesawat, hotel, dan paket wisata dapat dilakukan kapan saja secara online tanpa batasan waktu.</li>
+                 <li>Website dan aplikasi mobile yang mudah diakses, tampilan user-friendly, dan berbagai metode pembayaran.</li><br><br>
+            <h4>2. Paket Wisata yang Dapat Disesuaikan (Customizable Packages)</h4>
+                 <li>Pelanggan dapat merancang paket wisata sesuai dengan kebutuhan dan preferensi mereka, baik itu berdasarkan waktu, 
+                     anggaran, atau jenis aktivitas yang diinginkan.</li>
+                 <li>Pilihan destinasi, akomodasi, aktivitas, serta opsi transportasi yang dapat disesuaikan. Konsultasi dengan agen untuk merancang itinerary pribadi.</li><br><br>
+            <h4>3. Layanan Pemandu Wisata Profesional</h4>
+                 <li>Menyediakan pemandu wisata yang berpengalaman dan fasih dalam berbagai bahasa untuk memberikan pengalaman lokal yang autentik.</li>
+                 <li>Pemandu wisata lokal yang terlatih, personal guide dengan pengetahuan mendalam mengenai sejarah dan budaya destinasi.</li><br><br>
+            <h4>4. Asuransi Perjalanan dan Keamanan</h4>
+                 <li>Menjamin keamanan perjalanan pelanggan dengan menawarkan asuransi perjalanan yang mencakup kecelakaan, kehilangan barang, dan pembatalan perjalanan.</li>
+                 <li> Pilihan asuransi yang dapat disesuaikan, perlindungan untuk segala jenis risiko perjalanan, dan bantuan darurat 24 jam.</li><br><br>
+            <h4>5. Layanan Pelanggan 24 Jam</h4>
+                 <li>Menyediakan dukungan pelanggan yang siap membantu kapan saja, menjawab pertanyaan, dan menyelesaikan masalah selama perjalanan.</li>
+                 <li>Layanan via telepon, chat, email, atau media sosial yang responsif, dengan agen customer service yang berpengalaman.</li><br><br>
+            <h4>6. Akses ke Destinasi yang Tidak Terlalu Populer (Off-the-Beaten-Path)</h4>
+                 <li>Memberikan pengalaman perjalanan ke tempat-tempat yang jarang dijelajahi, jauh dari keramaian turis, untuk memberikan pengalaman yang lebih pribadi dan unik.</li>
+                 <li>Rekomendasi destinasi yang tidak biasa dan rencana perjalanan yang lebih eksklusif dengan sedikit turis.</li><br><br>
+            <h4>7. Layanan Pengelolaan Grup (Group Travel Management)</h4>
+                 <li>Memudahkan perjalanan untuk kelompok besar, seperti keluarga, teman, atau perusahaan, dengan layanan yang terkoordinasi dengan baik dan harga spesial untuk grup.</li>
+                 <li>Penyesuaian rencana perjalanan untuk grup besar, pemesanan bersama, dan diskon khusus untuk grup.</li><br><br>
+            <h4>8. Paket Perjalanan Tematik</h4>
+                 <li> Menyediakan perjalanan bertema yang disesuaikan dengan minat pelanggan, seperti perjalanan petualangan, wisata kuliner, wisata alam, atau liburan keluarga.</li>
+                 <li> Paket perjalanan berdasarkan tema tertentu dengan kegiatan yang relevan, seperti trekking, snorkeling, atau wisata sejarah.</li><br><br>
+            <h4>9. Review dan Testimoni Pelanggan</h4>
+                 <li>Menyediakan transparansi melalui ulasan dan testimoni dari pelanggan yang sudah menggunakan layanan untuk memastikan kualitas dan pengalaman yang diharapkan.</li>
+                 <li>Kolom ulasan pelanggan di situs web, rating bintang, dan testimoni perjalanan yang jujur.</li><br><br>
+            <h4>10. Pengalaman Wisata Berkelanjutan</h4>
+                 <li>Fokus pada keberlanjutan dan pariwisata ramah lingkungan dengan menyediakan pilihan wisata yang mendukung pelestarian alam dan budaya lokal.</li>
+                 <li>Pilihan destinasi yang eco-friendly, bekerja sama dengan penyedia layanan lokal yang memperhatikan aspek sosial dan lingkungan.</li>
+            </div>
+        </div><br>
+        </section>
+        <!-- HEADER PACKAGE CONTENT -->
+        <div class="our-package" id="package">
+            <h1>Our Packages</h1>
+        </div><br>
+        <!-- PACKAGE CONTENT -->
+        <section>
+            <!-- ASIA -->
+            <div class="destination">
+                <div class="asia">
+                    <i class="fa-solid fa-location-dot"></i><span class="part1">ASIA</span><br>
+                    <img src="/assets/asia.jpg" alt="asia" style="width: 100%; height: auto; max-width: 100%;">
+                    <div class="asia-description">
+                        <h4>Destinasi: Jepang, Thailand, India, dan China</h4>
+                            <p>Asia adalah benua yang kaya akan budaya, sejarah, dan keajaiban alam yang menakjubkan. 
+                               Di Jepang, nikmati keindahan sakura yang bermekaran di musim semi, kunjungi kuil-kuil tradisional di Kyoto,
+                               dan temui teknologi canggih di Tokyo. Thailand menawarkan pantai-pantai eksotis seperti Phuket dan Krabi,
+                               serta kebudayaan yang kaya dengan festival-festival yang meriah. Di India, jelajahi keajaiban Taj Mahal, rasakan keragaman budaya,
+                               dan nikmati kuliner yang penuh rempah. Sementara itu, China memukau dengan Tembok Besar yang megah, Kota Terlarang di Beijing,
+                               dan pesona kota-kota modern seperti Shanghai.</p>
+                        <h4>Aktivitas</h4>
+                            <li>Wisata sejarah dan budaya di kuil-kuil dan monumen bersejarah</li>
+                            <li>Jelajahi pasar tradisional dan nikmati kuliner lokal</li>
+                            <li>Menikmati pantai tropis dan aktivitas air</li>
+                            <li>Trekking dan petualangan alam di pegunungan dan taman nasional</li>
+                    </div>
+                </div>
+                <!-- EROPA -->
+                <div class="eropa">
+                    <i class="fa-solid fa-location-dot"></i><span class="part2">EROPA</span><br>
+                    <img src="/assets/eropa.jpg" alt="eropa" style="width: 100%; height: auto; max-width: 100%;">
+                    <div class="eropa-description">
+                        <h4>Destinasi: Prancis, Italia, Spanyol, dan Belanda</h4>
+                             <p>Eropa adalah benua yang penuh dengan sejarah, seni, dan pemandangan yang menakjubkan. Di Prancis, kunjungi Menara Eiffel di Paris, 
+                                nikmati anggur di Bordeaux, dan jelajahi pedesaan yang indah di Provence. Italia membawa Anda pada perjalanan budaya melalui kota-kota bersejarah seperti Roma, 
+                                Florence, dan Venesia, serta menikmati makanan Italia yang terkenal. Spanyol menawarkan budaya yang hidup dengan festival Flamenco di Sevilla, pantai indah di Costa Brava, 
+                                dan keindahan arsitektur Gaudí di Barcelona. Belanda adalah surga bagi pecinta bunga, terutama dengan tulip-tulip yang mekar di musim semi 
+                                dan kota Amsterdam yang penuh sejarah dan kanal yang menawan.</p>
+                        <h4>Aktivitas</h4>
+                             <li>Jelajahi monumen bersejarah dan situs seni</li>
+                             <li>Nikmati kuliner khas negara-negara Eropa</li>
+                             <li>Kunjungi kebun anggur dan nikmati wine tasting</li>
+                             <li>Menikmati suasana kota-kota yang penuh seni dan budaya</li>
+                    </div>
+                </div>
+                <!-- AFRIKA -->
+                <div class="afrika">
+                    <i class="fa-solid fa-location-dot"></i><span class="part3">AFRIKA</span><br>
+                    <img src="/assets/afrika.jpg" alt="afrika" style="width: 100%; height: auto; max-width: 100%;">
+                    <div class="afrika-description">
+                        <h4>Destinasi: Kenya, Maroko, Afrika Selatan, dan Mesir</h4>
+                             <p>Afrika, benua dengan kekayaan alam yang luar biasa, menawarkan pengalaman petualangan yang tak terlupakan. Safari di Kenya memungkinkan Anda untuk melihat hewan-hewan liar seperti singa, gajah, 
+                                dan zebra di Taman Nasional Masai Mara. Maroko membawa Anda pada perjalanan melalui pasar tradisional di Marrakech, kota-kota bersejarah, dan gurun Sahara yang luas. 
+                                Afrika Selatan adalah rumah bagi kehidupan kota yang dinamis seperti Cape Town, serta keindahan alam seperti Taman Nasional Kruger. Mesir menawarkan perjalanan ke dunia kuno, 
+                                dengan situs-situs seperti Piramida Giza dan Kuil Karnak.</p>
+                        <h4>Aktivitas</h4>
+                             <li>Safari untuk melihat satwa liar di habitat aslinya</li>
+                             <li>Eksplorasi gurun Sahara dengan unta atau jeep</li>
+                             <li>Mengunjungi situs bersejarah, piramida, dan makam kuno</li>
+                             <li>Wisata pantai dan penyelaman di perairan tropis</li>
+                    </div>
+                </div>
+                <!-- AMERIKA -->
+                <div class="amerika">
+                    <i class="fa-solid fa-location-dot"></i><span class="part4">AMERIKA</span><br>
+                    <img src="assets/amerika.jpg" alt="amerika" style="width: 100%; height: auto;">
+                    <div class="amerika-description">
+                        <h4>Destinasi: Amerika Serikat, Brasil, Meksiko, dan Argentina</h4>
+                            <p>Amerika adalah benua yang menawarkan segala hal, mulai dari keajaiban alam yang luar biasa hingga kota-kota metropolitan yang modern. Di Amerika Serikat, 
+                               Anda dapat menjelajahi Taman Nasional Grand Canyon, menikmati budaya di New York City, atau merasakan gaya hidup santai di California. Brasil menyambut Anda dengan pantai-pantai indah di Rio de Janeiro 
+                               dan hutan hujan Amazon yang megah. Meksiko menyuguhkan keindahan arkeologi dengan situs Maya di Chichen Itza, serta pesona pantai Karibia di Cancun. Argentina memiliki keindahan alam yang luar biasa, 
+                               termasuk pegunungan Andes, dan kota Buenos Aires yang terkenal dengan tango dan kuliner.</p>
+                        <h4>Aktivitas</h4>
+                            <li>Petualangan alam di taman nasional dan hutan tropis</li>
+                            <li>Wisata budaya dan kuliner di kota-kota besar</li>
+                            <li>Menikmati pantai eksotis dan olahraga air</li>
+                            <li>Menyelami sejarah dan situs arkeologi kuno</li>
+                    </div>
+               </div>
+        </section><br>
+            <!-- FOOTER CONTENT -->
+           <footer>
+            <div class="call-us" id="call">
+                <h1>Call Us</h1>
+            </div><br>
+            <div class="contact">
+               <h4>Hubungi Kami untuk Pengalaman Perjalanan Terbaik!</h4><br><br>
+                  <p>Tim kami di SKUY TERUY selalu siap untuk membantu Anda merencanakan perjalanan yang sempurna.</p>
+                  <p>Apakah Anda mencari destinasi eksotis, paket wisata keluarga, atau perjalanan bisnis, 
+                   kami siap memberikan saran dan informasi terbaik sesuai dengan preferensi Anda.</p><br><br>
+               <h4>Kenapa Menghubungi Kami?</h4><br><br>
+            <div class="li-style">
+                <li>Konsultasi Gratis: Kami akan membantu Anda memilih destinasi dan paket perjalanan yang sesuai dengan anggaran dan kebutuhan.</li>
+                <li>Layanan Pelanggan Profesional: Tim ahli kami siap memberikan informasi dan solusi untuk memastikan perjalanan Anda berjalan lancar.</li>
+                <li>Penawaran Eksklusif: Dapatkan akses ke promo dan diskon menarik yang hanya tersedia melalui komunikasi langsung dengan kami.</li>
+            </div><br><br>
+                <p>Hubungi kami hari ini melalui telepon atau email, dan mulailah merencanakan petualangan tak terlupakan Anda bersama kami!</p>
+            </div><br>
+
+            <div class="number">
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i>Telepon : 08xxxxxxxxxx
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>Email : skuyteruy@mail.com
+                </div>
+                <div class="addres">
+                    <i class="fas fa-address-book">
+                    </i> Alamat Kantor : PT. Wisata Indah
+                     Jl. Raya Liburan No. 15,
+                     Kompleks Perkantoran Sejahtera,
+                     Jakarta Selatan, 12345
+                     Indonesia
+                </div>
+            </div>
+            <div class="credit"><p>All material herein © 2020–2023 Skuy teruy Company Ltd. All Rights Reserved.</p>
+                  <p>Skuy Teruy is part of Booking Holdings Inc., the world leader in online travel & related services.</p>
+            </div>
+           </footer>
+           <!-- SCRIPT -->
+    <script src="/JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/a9a47d610c.js" crossorigin="anonymous"></script>
 </body>
 </html>
