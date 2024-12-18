@@ -302,3 +302,59 @@ select {
   background-color: rgb(204, 201, 201);
 }
 /* CONTACT CONTENT END */
+
+/* media querry */
+@media only screen and (max-width: 600px) {
+  .container-nav {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .content > h1 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+  }
+
+  .text {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -200px;
+  }
+
+  .slides {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .form-container {
+    margin-left: 0;
+  }
+
+  .adds {
+    width: 780px;
+    height: 130px;
+  }
+
+  .credit {
+    padding-top: 80px;
+  }
+
+  .credit > p {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .phone,
+  .email,
+  .addres {
+    padding-top: 0;
+  }
+}

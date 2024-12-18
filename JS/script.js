@@ -1,3 +1,4 @@
+// SLIDESHOW IMAGE
 let index = 0;
 
 function showSlides() {
@@ -20,6 +21,7 @@ function showSlides() {
 
 window.onload = showSlides;
 
+// AUTOSCROLL
 function scrollToPackage() {
   const packageSection = document.getElementById("package");
   packageSection.scrollIntoView({
@@ -36,6 +38,7 @@ function scrollToCallUs() {
   });
 }
 
+// SUBMIT FORM
 function showAlert() {
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
